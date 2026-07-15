@@ -37,6 +37,7 @@
             label3 = new Label();
             label4 = new Label();
             pictureBox1 = new PictureBox();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)t4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)t2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)t1).BeginInit();
@@ -75,7 +76,7 @@
             // t1
             // 
             t1.Cursor = Cursors.Hand;
-            t1.Location = new Point(141, 75);
+            t1.Location = new Point(141, 81);
             t1.Maximum = 255;
             t1.Minimum = 1;
             t1.Name = "t1";
@@ -148,11 +149,22 @@
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(392, 9);
+            label5.Name = "label5";
+            label5.Size = new Size(302, 38);
+            label5.TabIndex = 9;
+            label5.Text = "TEST ARGB (COLOUR)";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1087, 407);
+            Controls.Add(label5);
             Controls.Add(pictureBox1);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -183,5 +195,6 @@
         private Label label3;
         private Label label4;
         private PictureBox pictureBox1;
+        private Label label5;
     }
 }
